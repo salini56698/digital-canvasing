@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Arun Menon",
+    "party": "Sample Party A",
+    "constituency": "Sample City North",
+    "age": 52,
+    "education": "LLB",
+    "assets": "₹4.2 Cr",
+    "goodWork": [
+      "Built 3 primary health centres",
+      "Cleared a 20 year old drinking water project"
+    ],
+    "concerns": [
+      "Attendance in assembly: 61%",
+      "Two promises still pending"
+    ],
+    "cases": {
+      "count": 1,
+      "status": "Pending (alleged)",
+      "details": "Sample case, for demonstration only"
+    },
+    "winChance": 58
+  },
+  {
+    "id": 2,
+    "name": "Meera Nair",
+    "party": "Sample Party B",
+    "constituency": "Sample City North",
+    "age": 44,
+    "education": "MBA",
+    "assets": "₹1.8 Cr",
+    "goodWork": [
+      "Started a free coaching scheme for students",
+      "Led a flood relief drive in 2018"
+    ],
+    "concerns": [
+      "First time contestant, no governance record"
+    ],
+    "cases": {
+      "count": 0,
+      "status": "None declared",
+      "details": ""
+    },
+    "winChance": 42
+  }
+]
