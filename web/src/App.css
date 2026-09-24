@@ -1,3 +1,5 @@
 .app { padding: 24px; text-align: center; }
-.tagline { color: #888; margin-bottom: 24px; }
-.grid { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; }
+.tagline { color: #888; margin-bottom: 20px; }
+.tabs { display: flex; gap: 8px; justify-content: center; margin-bottom: 24px; }
+.tab { background: #2c2c44; color: #fff; border: none; padding: 8px 20px; border-radius: 20px; cursor: pointer; }
+.tab.on { background: linear-gradient(90deg, #6c63ff, #00c9a7); }

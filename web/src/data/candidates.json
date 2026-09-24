@@ -4,44 +4,558 @@
     "name": "Arun Menon",
     "party": "Sample Party A",
     "constituency": "Sample City North",
-    "age": 52,
-    "education": "LLB",
-    "assets": "₹4.2 Cr",
+    "age": 32,
+    "education": "B.A",
+    "assets": "₹0.4 Cr",
     "goodWork": [
-      "Built 3 primary health centres",
-      "Cleared a 20 year old drinking water project"
+      "Built a new primary health centre",
+      "Widened local roads"
     ],
     "concerns": [
-      "Attendance in assembly: 61%",
-      "Two promises still pending"
+      "Low attendance in assembly",
+      "Assets grew sharply since last election"
     ],
     "cases": {
-      "count": 1,
+      "count": 2,
       "status": "Pending (alleged)",
       "details": "Sample case, for demonstration only"
     },
-    "winChance": 58
+    "winChance": 33
   },
   {
     "id": 2,
     "name": "Meera Nair",
     "party": "Sample Party B",
-    "constituency": "Sample City North",
-    "age": 44,
-    "education": "MBA",
-    "assets": "₹1.8 Cr",
+    "constituency": "Sample City South",
+    "age": 39,
+    "education": "B.Com",
+    "assets": "₹4.1 Cr",
     "goodWork": [
-      "Started a free coaching scheme for students",
-      "Led a flood relief drive in 2018"
+      "Set up a public library",
+      "Started a free coaching scheme"
     ],
     "concerns": [
-      "First time contestant, no governance record"
+      "Skipped public debates"
     ],
     "cases": {
       "count": 0,
       "status": "None declared",
       "details": ""
     },
-    "winChance": 42
+    "winChance": 33
+  },
+  {
+    "id": 3,
+    "name": "Rahul Varma",
+    "party": "Sample Party C",
+    "constituency": "Sample Town East",
+    "age": 46,
+    "education": "B.Sc",
+    "assets": "₹7.8 Cr",
+    "goodWork": [
+      "Led a flood relief drive",
+      "Restored a public pond"
+    ],
+    "concerns": [
+      "Limited party support"
+    ],
+    "cases": {
+      "count": 0,
+      "status": "None declared",
+      "details": ""
+    },
+    "winChance": 33
+  },
+  {
+    "id": 4,
+    "name": "Divya Krishnan",
+    "party": "Sample Party D",
+    "constituency": "Sample Town West",
+    "age": 53,
+    "education": "LLB",
+    "assets": "₹2.5 Cr",
+    "goodWork": [
+      "Opened a night shelter",
+      "Cleared a long-pending water project"
+    ],
+    "concerns": [
+      "Two promises still pending",
+      "Skipped public debates"
+    ],
+    "cases": {
+      "count": 0,
+      "status": "None declared",
+      "details": ""
+    },
+    "winChance": 33
+  },
+  {
+    "id": 5,
+    "name": "Suresh Pillai",
+    "party": "Independent (sample)",
+    "constituency": "Sample Coastal",
+    "age": 60,
+    "education": "MBA",
+    "assets": "₹6.2 Cr",
+    "goodWork": [
+      "Widened local roads",
+      "Ran a waste-free neighbourhood campaign"
+    ],
+    "concerns": [
+      "No governance record"
+    ],
+    "cases": {
+      "count": 1,
+      "status": "Pending (alleged)",
+      "details": "Sample case, for demonstration only"
+    },
+    "winChance": 33
+  },
+  {
+    "id": 6,
+    "name": "Anitha Thomas",
+    "party": "Sample Party A",
+    "constituency": "Sample City North",
+    "age": 32,
+    "education": "M.Sc",
+    "assets": "₹0.9 Cr",
+    "goodWork": [
+      "Started a free coaching scheme",
+      "Trained women in digital skills"
+    ],
+    "concerns": [
+      "Poor response to public complaints"
+    ],
+    "cases": {
+      "count": 0,
+      "status": "None declared",
+      "details": ""
+    },
+    "winChance": 27
+  },
+  {
+    "id": 7,
+    "name": "Vishnu Kurup",
+    "party": "Sample Party B",
+    "constituency": "Sample City South",
+    "age": 39,
+    "education": "B.Tech",
+    "assets": "₹4.6 Cr",
+    "goodWork": [
+      "Restored a public pond",
+      "Built a new primary health centre"
+    ],
+    "concerns": [
+      "Assets grew sharply since last election",
+      "No governance record"
+    ],
+    "cases": {
+      "count": 0,
+      "status": "None declared",
+      "details": ""
+    },
+    "winChance": 27
+  },
+  {
+    "id": 8,
+    "name": "Lakshmi Das",
+    "party": "Sample Party C",
+    "constituency": "Sample Town East",
+    "age": 46,
+    "education": "M.A",
+    "assets": "₹8.3 Cr",
+    "goodWork": [
+      "Cleared a long-pending water project",
+      "Set up a public library"
+    ],
+    "concerns": [
+      "Delays on a road project"
+    ],
+    "cases": {
+      "count": 0,
+      "status": "None declared",
+      "details": ""
+    },
+    "winChance": 27
+  },
+  {
+    "id": 9,
+    "name": "Manoj Iyer",
+    "party": "Sample Party D",
+    "constituency": "Sample Town West",
+    "age": 53,
+    "education": "Class 12",
+    "assets": "₹3.0 Cr",
+    "goodWork": [
+      "Ran a waste-free neighbourhood campaign",
+      "Led a flood relief drive"
+    ],
+    "concerns": [
+      "Low attendance in assembly"
+    ],
+    "cases": {
+      "count": 2,
+      "status": "Pending (alleged)",
+      "details": "Sample case, for demonstration only"
+    },
+    "winChance": 27
+  },
+  {
+    "id": 10,
+    "name": "Sreeja Joseph",
+    "party": "Independent (sample)",
+    "constituency": "Sample Coastal",
+    "age": 60,
+    "education": "B.A",
+    "assets": "₹6.7 Cr",
+    "goodWork": [
+      "Trained women in digital skills",
+      "Opened a night shelter"
+    ],
+    "concerns": [
+      "Skipped public debates",
+      "Delays on a road project"
+    ],
+    "cases": {
+      "count": 0,
+      "status": "None declared",
+      "details": ""
+    },
+    "winChance": 27
+  },
+  {
+    "id": 11,
+    "name": "Gopan Panicker",
+    "party": "Sample Party A",
+    "constituency": "Sample City North",
+    "age": 32,
+    "education": "B.Com",
+    "assets": "₹1.4 Cr",
+    "goodWork": [
+      "Built a new primary health centre",
+      "Widened local roads"
+    ],
+    "concerns": [
+      "Limited party support"
+    ],
+    "cases": {
+      "count": 0,
+      "status": "None declared",
+      "details": ""
+    },
+    "winChance": 20
+  },
+  {
+    "id": 12,
+    "name": "Nisha George",
+    "party": "Sample Party B",
+    "constituency": "Sample City South",
+    "age": 39,
+    "education": "B.Sc",
+    "assets": "₹5.1 Cr",
+    "goodWork": [
+      "Set up a public library",
+      "Started a free coaching scheme"
+    ],
+    "concerns": [
+      "Two promises still pending"
+    ],
+    "cases": {
+      "count": 0,
+      "status": "None declared",
+      "details": ""
+    },
+    "winChance": 20
+  },
+  {
+    "id": 13,
+    "name": "Ajith Warrier",
+    "party": "Sample Party C",
+    "constituency": "Sample Town East",
+    "age": 46,
+    "education": "LLB",
+    "assets": "₹8.8 Cr",
+    "goodWork": [
+      "Led a flood relief drive",
+      "Restored a public pond"
+    ],
+    "concerns": [
+      "No governance record",
+      "Limited party support"
+    ],
+    "cases": {
+      "count": 1,
+      "status": "Pending (alleged)",
+      "details": "Sample case, for demonstration only"
+    },
+    "winChance": 20
+  },
+  {
+    "id": 14,
+    "name": "Revathy Mathew",
+    "party": "Sample Party D",
+    "constituency": "Sample Town West",
+    "age": 53,
+    "education": "MBA",
+    "assets": "₹3.5 Cr",
+    "goodWork": [
+      "Opened a night shelter",
+      "Cleared a long-pending water project"
+    ],
+    "concerns": [
+      "Poor response to public complaints"
+    ],
+    "cases": {
+      "count": 0,
+      "status": "None declared",
+      "details": ""
+    },
+    "winChance": 20
+  },
+  {
+    "id": 15,
+    "name": "Sanjay Nambiar",
+    "party": "Independent (sample)",
+    "constituency": "Sample Coastal",
+    "age": 60,
+    "education": "M.Sc",
+    "assets": "₹7.2 Cr",
+    "goodWork": [
+      "Widened local roads",
+      "Ran a waste-free neighbourhood campaign"
+    ],
+    "concerns": [
+      "Assets grew sharply since last election"
+    ],
+    "cases": {
+      "count": 0,
+      "status": "None declared",
+      "details": ""
+    },
+    "winChance": 20
+  },
+  {
+    "id": 16,
+    "name": "Fathima Rahman",
+    "party": "Sample Party A",
+    "constituency": "Sample City North",
+    "age": 32,
+    "education": "B.Tech",
+    "assets": "₹1.9 Cr",
+    "goodWork": [
+      "Started a free coaching scheme",
+      "Trained women in digital skills"
+    ],
+    "concerns": [
+      "Delays on a road project",
+      "Poor response to public complaints"
+    ],
+    "cases": {
+      "count": 0,
+      "status": "None declared",
+      "details": ""
+    },
+    "winChance": 13
+  },
+  {
+    "id": 17,
+    "name": "Biju Kumar",
+    "party": "Sample Party B",
+    "constituency": "Sample City South",
+    "age": 39,
+    "education": "M.A",
+    "assets": "₹5.6 Cr",
+    "goodWork": [
+      "Restored a public pond",
+      "Built a new primary health centre"
+    ],
+    "concerns": [
+      "Low attendance in assembly"
+    ],
+    "cases": {
+      "count": 2,
+      "status": "Pending (alleged)",
+      "details": "Sample case, for demonstration only"
+    },
+    "winChance": 13
+  },
+  {
+    "id": 18,
+    "name": "Kavya Babu",
+    "party": "Sample Party C",
+    "constituency": "Sample Town East",
+    "age": 46,
+    "education": "Class 12",
+    "assets": "₹9.3 Cr",
+    "goodWork": [
+      "Cleared a long-pending water project",
+      "Set up a public library"
+    ],
+    "concerns": [
+      "Skipped public debates"
+    ],
+    "cases": {
+      "count": 0,
+      "status": "None declared",
+      "details": ""
+    },
+    "winChance": 13
+  },
+  {
+    "id": 19,
+    "name": "Harish Shenoy",
+    "party": "Sample Party D",
+    "constituency": "Sample Town West",
+    "age": 53,
+    "education": "B.A",
+    "assets": "₹4.0 Cr",
+    "goodWork": [
+      "Ran a waste-free neighbourhood campaign",
+      "Led a flood relief drive"
+    ],
+    "concerns": [
+      "Limited party support",
+      "Low attendance in assembly"
+    ],
+    "cases": {
+      "count": 0,
+      "status": "None declared",
+      "details": ""
+    },
+    "winChance": 13
+  },
+  {
+    "id": 20,
+    "name": "Jasmine Ali",
+    "party": "Independent (sample)",
+    "constituency": "Sample Coastal",
+    "age": 60,
+    "education": "B.Com",
+    "assets": "₹7.7 Cr",
+    "goodWork": [
+      "Trained women in digital skills",
+      "Opened a night shelter"
+    ],
+    "concerns": [
+      "Two promises still pending"
+    ],
+    "cases": {
+      "count": 0,
+      "status": "None declared",
+      "details": ""
+    },
+    "winChance": 13
+  },
+  {
+    "id": 21,
+    "name": "Pradeep Mohan",
+    "party": "Sample Party A",
+    "constituency": "Sample City North",
+    "age": 32,
+    "education": "B.Sc",
+    "assets": "₹2.4 Cr",
+    "goodWork": [
+      "Built a new primary health centre",
+      "Widened local roads"
+    ],
+    "concerns": [
+      "No governance record"
+    ],
+    "cases": {
+      "count": 1,
+      "status": "Pending (alleged)",
+      "details": "Sample case, for demonstration only"
+    },
+    "winChance": 7
+  },
+  {
+    "id": 22,
+    "name": "Sandhya Raj",
+    "party": "Sample Party B",
+    "constituency": "Sample City South",
+    "age": 39,
+    "education": "LLB",
+    "assets": "₹6.1 Cr",
+    "goodWork": [
+      "Set up a public library",
+      "Started a free coaching scheme"
+    ],
+    "concerns": [
+      "Poor response to public complaints",
+      "Two promises still pending"
+    ],
+    "cases": {
+      "count": 0,
+      "status": "None declared",
+      "details": ""
+    },
+    "winChance": 7
+  },
+  {
+    "id": 23,
+    "name": "Anwar Hameed",
+    "party": "Sample Party C",
+    "constituency": "Sample Town East",
+    "age": 46,
+    "education": "MBA",
+    "assets": "₹0.8 Cr",
+    "goodWork": [
+      "Led a flood relief drive",
+      "Restored a public pond"
+    ],
+    "concerns": [
+      "Assets grew sharply since last election"
+    ],
+    "cases": {
+      "count": 0,
+      "status": "None declared",
+      "details": ""
+    },
+    "winChance": 7
+  },
+  {
+    "id": 24,
+    "name": "Reshma Philip",
+    "party": "Sample Party D",
+    "constituency": "Sample Town West",
+    "age": 53,
+    "education": "M.Sc",
+    "assets": "₹4.5 Cr",
+    "goodWork": [
+      "Opened a night shelter",
+      "Cleared a long-pending water project"
+    ],
+    "concerns": [
+      "Delays on a road project"
+    ],
+    "cases": {
+      "count": 0,
+      "status": "None declared",
+      "details": ""
+    },
+    "winChance": 7
+  },
+  {
+    "id": 25,
+    "name": "Vinod Pai",
+    "party": "Independent (sample)",
+    "constituency": "Sample Coastal",
+    "age": 60,
+    "education": "B.Tech",
+    "assets": "₹8.2 Cr",
+    "goodWork": [
+      "Widened local roads",
+      "Ran a waste-free neighbourhood campaign"
+    ],
+    "concerns": [
+      "Low attendance in assembly",
+      "Assets grew sharply since last election"
+    ],
+    "cases": {
+      "count": 2,
+      "status": "Pending (alleged)",
+      "details": "Sample case, for demonstration only"
+    },
+    "winChance": 7
   }
 ]

@@ -1,0 +1,6 @@
+.compare { max-width: 600px; margin: 0 auto; }
+.pickers { display: flex; gap: 12px; justify-content: center; align-items: center; margin-bottom: 16px; }
+select { background: #2c2c44; color: #fff; border: none; padding: 8px 12px; border-radius: 10px; font-size: 1rem; }
+table { width: 100%; border-collapse: collapse; background: #1e1e2f; border-radius: 16px; overflow: hidden; }
+td, th { padding: 12px 10px; text-align: center; border-bottom: 1px solid #2c2c44; font-size: 0.9rem; }
+th { color: #888; font-weight: normal; font-size: 0.75rem; }

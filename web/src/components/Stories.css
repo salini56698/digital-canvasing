@@ -1,0 +1,12 @@
+.stories { display: flex; flex-direction: column; align-items: center; }
+.stage { display: flex; align-items: center; gap: 12px; }
+.arrow {
+  background: #2c2c44; color: #fff; border: none;
+  width: 44px; height: 44px; border-radius: 50%;
+  font-size: 1.6rem; cursor: pointer;
+}
+.arrow:hover { background: #3a3a5c; }
+.hint { color: #888; font-size: 0.85rem; margin-top: 16px; }
+.progress { width: 340px; max-width: 90vw; height: 4px; background: #2c2c44; border-radius: 4px; margin-bottom: 16px; overflow: hidden; }
+.progress-fill { height: 100%; background: linear-gradient(90deg, #6c63ff, #00c9a7); transition: width 0.3s; }
+@media (max-width: 500px) { .arrow { display: none; } }
