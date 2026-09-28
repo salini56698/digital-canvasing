@@ -1,8 +1,10 @@
 import { motion } from "framer-motion";
+import CountUp from "./CountUp";
 import "./CandidateCard.css";
 
 export default function CandidateCard({ candidate }) {
   const hasCases = candidate.cases.count > 0;
+  const assetsNumber = parseFloat(candidate.assets.replace(/[^0-9.]/g, ""));
 
   return (
     <motion.div
@@ -20,7 +22,9 @@ export default function CandidateCard({ candidate }) {
       <div className="stats">
         <span>Age {candidate.age}</span>
         <span>{candidate.education}</span>
-        <span>{candidate.assets}</span>
+        <span>
+          <CountUp to={assetsNumber} decimals={1} prefix="₹" suffix=" Cr" />
+        </span>
       </div>
 
       <h3>👍 Good work</h3>
@@ -52,7 +56,10 @@ export default function CandidateCard({ candidate }) {
       </ul>
 
       <div className={hasCases ? "cases warn" : "cases clear"}>
-        ⚖️ Cases: {candidate.cases.count} · {candidate.cases.status}
+        ⚖️ Declared cases: {candidate.cases.count} · {candidate.cases.status}
+        {hasCases && (
+          <small>Allegations are not proof of guilt.</small>
+        )}
       </div>
 
       <div className="prediction">
@@ -65,8 +72,12 @@ export default function CandidateCard({ candidate }) {
             transition={{ duration: 1.2, delay: 1 }}
           />
         </div>
-        <strong>{candidate.winChance}%</strong>
+        <strong>
+          <CountUp to={candidate.winChance} suffix="%" duration={1.5} />
+        </strong>
       </div>
+
+      <p className="source">Source: sample data for demonstration</p>
     </motion.div>
   );
 }

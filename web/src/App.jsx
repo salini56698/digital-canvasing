@@ -9,23 +9,31 @@ export default function App() {
 
   return (
     <div className="app">
-      <h1>Digital Canvassing</h1>
-      <p className="tagline">Know your candidates. Sample data only.</p>
+      <header className="header">
+        <h1>Digital Canvassing</h1>
+        <p className="tagline">Know your candidates. Sample data only.</p>
+        <div className="tabs">
+          <button className={tab === "stories" ? "tab on" : "tab"} onClick={() => setTab("stories")}>
+            Stories
+          </button>
+          <button className={tab === "compare" ? "tab on" : "tab"} onClick={() => setTab("compare")}>
+            Compare
+          </button>
+        </div>
+      </header>
 
-      <div className="tabs">
-        <button className={tab === "stories" ? "tab on" : "tab"} onClick={() => setTab("stories")}>
-          Stories
-        </button>
-        <button className={tab === "compare" ? "tab on" : "tab"} onClick={() => setTab("compare")}>
-          Compare
-        </button>
-      </div>
+      <main>
+        {tab === "stories" ? (
+          <Stories candidates={candidates} />
+        ) : (
+          <Compare candidates={candidates} />
+        )}
+      </main>
 
-      {tab === "stories" ? (
-        <Stories candidates={candidates} />
-      ) : (
-        <Compare candidates={candidates} />
-      )}
+      <footer className="footer">
+        Information is from public sources. Pending cases are allegations, not proof of guilt.
+        Predictions are estimates.
+      </footer>
     </div>
   );
 }

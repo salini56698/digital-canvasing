@@ -24,28 +24,34 @@ export default function Compare({ candidates }) {
       <div className="pickers">
         <select value={leftId} onChange={(e) => setLeftId(e.target.value)}>
           {candidates.map((c) => (
-            <option key={c.id} value={c.id}>{c.name}</option>
+            <option key={c.id} value={c.id}>
+              {c.name}
+            </option>
           ))}
         </select>
         <span>vs</span>
         <select value={rightId} onChange={(e) => setRightId(e.target.value)}>
           {candidates.map((c) => (
-            <option key={c.id} value={c.id}>{c.name}</option>
+            <option key={c.id} value={c.id}>
+              {c.name}
+            </option>
           ))}
         </select>
       </div>
 
-      <table>
-        <tbody>
-          {rows.map(([label, get]) => (
-            <tr key={label}>
-              <td>{get(left)}</td>
-              <th>{label}</th>
-              <td>{get(right)}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      <div className="table-wrap">
+        <table>
+          <tbody>
+            {rows.map(([label, get]) => (
+              <tr key={label}>
+                <td>{get(left)}</td>
+                <th>{label}</th>
+                <td>{get(right)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }
