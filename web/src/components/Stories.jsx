@@ -1,11 +1,15 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import CandidateCard from "./CandidateCard";
 import "./Stories.css";
 
-export default function Stories({ candidates }) {
-  const [index, setIndex] = useState(0);
+export default function Stories({ candidates, startIndex = 0 }) {
+  const [index, setIndex] = useState(startIndex);
   const [direction, setDirection] = useState(1);
+
+  useEffect(() => {
+    setIndex(startIndex);
+  }, [startIndex]);
 
   const go = (step) => {
     setDirection(step);
