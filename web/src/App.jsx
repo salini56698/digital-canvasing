@@ -7,6 +7,7 @@ import "./App.css";
 const API_URL = "http://localhost:8000";
 
 export default function App() {
+  const [dataset, setDataset] = useState("real"); // "real" or "sample"
   const [candidates, setCandidates] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -16,7 +17,11 @@ export default function App() {
   const [startIndex, setStartIndex] = useState(0);
 
   useEffect(() => {
-    fetch(`${API_URL}/candidates`)
+    setLoading(true);
+    setError(null);
+    const endpoint = dataset === "real" ? "/real-candidates" : "/candidates";
+
+    fetch(`${API_URL}${endpoint}`)
       .then((res) => {
         if (!res.ok) throw new Error("Server responded with an error");
         return res.json();
@@ -24,12 +29,13 @@ export default function App() {
       .then((data) => {
         setCandidates(data);
         setLoading(false);
+        setStartIndex(0);
       })
       .catch((err) => {
         setError(err.message);
         setLoading(false);
       });
-  }, []);
+  }, [dataset]);
 
   const toggleFavourite = (id) => {
     setFavourites((prev) =>
@@ -47,7 +53,27 @@ export default function App() {
     <div className="app">
       <header className="header">
         <h1>Digital Canvassing</h1>
-        <p className="tagline">Know your candidates. Sample data only.</p>
+        <p className="tagline">
+          {dataset === "real"
+            ? "Real candidates, Kerala Lok Sabha 2024. Sourced from MyNeta (ADR)."
+            : "Know your candidates. Sample data only."}
+        </p>
+
+        <div className="dataset-toggle">
+          <button
+            className={dataset === "real" ? "chip on" : "chip"}
+            onClick={() => setDataset("real")}
+          >
+            Real Data
+          </button>
+          <button
+            className={dataset === "sample" ? "chip on" : "chip"}
+            onClick={() => setDataset("sample")}
+          >
+            Sample Data
+          </button>
+        </div>
+
         <div className="tabs">
           <button className={tab === "browse" ? "tab on" : "tab"} onClick={() => setTab("browse")}>
             Browse
@@ -89,8 +115,18 @@ export default function App() {
       </main>
 
       <footer className="footer">
-        Information is from public sources. Pending cases are allegations, not proof of guilt.
-        Predictions are estimates.
+        {dataset === "real" ? (
+          <>
+            Source: MyNeta.info (Association for Democratic Reforms), Lok Sabha 2024 election affidavits.
+            Declared criminal cases are allegations as per self-sworn affidavits, not proof of guilt.
+            Figures shown are as declared by candidates and may not reflect current status.
+          </>
+        ) : (
+          <>
+            Information is from public sources. Pending cases are allegations, not proof of guilt.
+            Predictions are estimates.
+          </>
+        )}
       </footer>
     </div>
   );
