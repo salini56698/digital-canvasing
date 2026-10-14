@@ -9,9 +9,15 @@
     "education": "Graduate Professional",
     "assets": "₹9.52 Cr (declared)",
     "liabilities": "₹13 Lacs (declared)",
-    "cases": { "count": 5, "status": "Declared (see affidavit)", "details": "As declared in the 2024 election affidavit" },
+    "cases": {
+      "count": 5,
+      "status": "Declared (see affidavit)",
+      "details": "As declared in the 2024 election affidavit"
+    },
     "source": "MyNeta.info (ADR), Lok Sabha 2024",
-    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=218"
+    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=218",
+    "assetsLacs": 952.0,
+    "liabilitiesLacs": 13.0
   },
   {
     "id": 2,
@@ -23,9 +29,15 @@
     "education": "Graduate",
     "assets": "₹3.17 Cr (declared)",
     "liabilities": "Not declared",
-    "cases": { "count": 3, "status": "Declared (see affidavit)", "details": "As declared in the 2024 election affidavit" },
+    "cases": {
+      "count": 3,
+      "status": "Declared (see affidavit)",
+      "details": "As declared in the 2024 election affidavit"
+    },
     "source": "MyNeta.info (ADR), Lok Sabha 2024",
-    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=218"
+    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=218",
+    "assetsLacs": 317.0,
+    "liabilitiesLacs": null
   },
   {
     "id": 3,
@@ -37,9 +49,15 @@
     "education": "Graduate",
     "assets": "₹91.89 Lacs (declared)",
     "liabilities": "Not declared",
-    "cases": { "count": 0, "status": "None declared", "details": "" },
+    "cases": {
+      "count": 0,
+      "status": "None declared",
+      "details": ""
+    },
     "source": "MyNeta.info (ADR), Lok Sabha 2024",
-    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=218"
+    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=218",
+    "assetsLacs": 91.89,
+    "liabilitiesLacs": null
   },
   {
     "id": 4,
@@ -51,9 +69,15 @@
     "education": "Post Graduate",
     "assets": "₹2.08 Cr (declared)",
     "liabilities": "₹36.20 Lacs (declared)",
-    "cases": { "count": 88, "status": "Declared (see affidavit)", "details": "As declared in the 2024 election affidavit" },
+    "cases": {
+      "count": 88,
+      "status": "Declared (see affidavit)",
+      "details": "As declared in the 2024 election affidavit"
+    },
     "source": "MyNeta.info (ADR), Lok Sabha 2024",
-    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=217"
+    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=217",
+    "assetsLacs": 208.0,
+    "liabilitiesLacs": 36.2
   },
   {
     "id": 5,
@@ -65,9 +89,15 @@
     "education": "Post Graduate",
     "assets": "₹2.18 Cr (declared)",
     "liabilities": "Not declared",
-    "cases": { "count": 8, "status": "Declared (see affidavit)", "details": "As declared in the 2024 election affidavit" },
+    "cases": {
+      "count": 8,
+      "status": "Declared (see affidavit)",
+      "details": "As declared in the 2024 election affidavit"
+    },
     "source": "MyNeta.info (ADR), Lok Sabha 2024",
-    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=217"
+    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=217",
+    "assetsLacs": 218.0,
+    "liabilitiesLacs": null
   },
   {
     "id": 6,
@@ -79,9 +109,15 @@
     "education": "Post Graduate",
     "assets": "₹5.02 Cr (declared)",
     "liabilities": "₹2.61 Cr (declared)",
-    "cases": { "count": 0, "status": "None declared", "details": "" },
+    "cases": {
+      "count": 0,
+      "status": "None declared",
+      "details": ""
+    },
     "source": "MyNeta.info (ADR), Lok Sabha 2024",
-    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=217"
+    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=217",
+    "assetsLacs": 502.0,
+    "liabilitiesLacs": 261.0
   },
   {
     "id": 7,
@@ -93,9 +129,15 @@
     "education": "Graduate",
     "assets": "₹3.40 Cr (declared)",
     "liabilities": "₹44.54 Lacs (declared)",
-    "cases": { "count": 10, "status": "Declared (see affidavit)", "details": "As declared in the 2024 election affidavit" },
+    "cases": {
+      "count": 10,
+      "status": "Declared (see affidavit)",
+      "details": "As declared in the 2024 election affidavit"
+    },
     "source": "MyNeta.info (ADR), Lok Sabha 2024",
-    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=216"
+    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=216",
+    "assetsLacs": 340.0,
+    "liabilitiesLacs": 44.54
   },
   {
     "id": 8,
@@ -107,9 +149,15 @@
     "education": "Doctorate",
     "assets": "₹1.55 Cr (declared)",
     "liabilities": "Not declared",
-    "cases": { "count": 211, "status": "Declared (see affidavit)", "details": "As declared in the 2024 election affidavit" },
+    "cases": {
+      "count": 211,
+      "status": "Declared (see affidavit)",
+      "details": "As declared in the 2024 election affidavit"
+    },
     "source": "MyNeta.info (ADR), Lok Sabha 2024",
-    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=216"
+    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=216",
+    "assetsLacs": 155.0,
+    "liabilitiesLacs": null
   },
   {
     "id": 9,
@@ -121,9 +169,15 @@
     "education": "Post Graduate",
     "assets": "Not declared",
     "liabilities": "Not declared",
-    "cases": { "count": 2, "status": "Declared (see affidavit)", "details": "As declared in the 2024 election affidavit" },
+    "cases": {
+      "count": 2,
+      "status": "Declared (see affidavit)",
+      "details": "As declared in the 2024 election affidavit"
+    },
     "source": "MyNeta.info (ADR), Lok Sabha 2024",
-    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=216"
+    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=216",
+    "assetsLacs": null,
+    "liabilitiesLacs": null
   },
   {
     "id": 10,
@@ -135,9 +189,15 @@
     "education": "Graduate Professional",
     "assets": "₹3.12 Cr (declared)",
     "liabilities": "₹38 Lacs (declared)",
-    "cases": { "count": 5, "status": "Declared (see affidavit)", "details": "As declared in the 2024 election affidavit" },
+    "cases": {
+      "count": 5,
+      "status": "Declared (see affidavit)",
+      "details": "As declared in the 2024 election affidavit"
+    },
     "source": "MyNeta.info (ADR), Lok Sabha 2024",
-    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=223"
+    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=223",
+    "assetsLacs": 312.0,
+    "liabilitiesLacs": 38.0
   },
   {
     "id": 11,
@@ -149,9 +209,15 @@
     "education": "Graduate",
     "assets": "₹14.98 Cr (declared)",
     "liabilities": "Not declared",
-    "cases": { "count": 1, "status": "Declared (see affidavit)", "details": "As declared in the 2024 election affidavit" },
+    "cases": {
+      "count": 1,
+      "status": "Declared (see affidavit)",
+      "details": "As declared in the 2024 election affidavit"
+    },
     "source": "MyNeta.info (ADR), Lok Sabha 2024",
-    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=223"
+    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=223",
+    "assetsLacs": 1498.0,
+    "liabilitiesLacs": null
   },
   {
     "id": 12,
@@ -163,9 +229,15 @@
     "education": "Graduate",
     "assets": "₹7.11 Cr (declared)",
     "liabilities": "₹34.92 Lacs (declared)",
-    "cases": { "count": 1, "status": "Declared (see affidavit)", "details": "As declared in the 2024 election affidavit" },
+    "cases": {
+      "count": 1,
+      "status": "Declared (see affidavit)",
+      "details": "As declared in the 2024 election affidavit"
+    },
     "source": "MyNeta.info (ADR), Lok Sabha 2024",
-    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=223"
+    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=223",
+    "assetsLacs": 711.0,
+    "liabilitiesLacs": 34.92
   },
   {
     "id": 13,
@@ -177,9 +249,15 @@
     "education": "Graduate",
     "assets": "Not declared",
     "liabilities": "Not declared",
-    "cases": { "count": 5, "status": "Declared (see affidavit)", "details": "As declared in the 2024 election affidavit" },
+    "cases": {
+      "count": 5,
+      "status": "Declared (see affidavit)",
+      "details": "As declared in the 2024 election affidavit"
+    },
     "source": "MyNeta.info (ADR), Lok Sabha 2024",
-    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=215"
+    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=215",
+    "assetsLacs": null,
+    "liabilitiesLacs": null
   },
   {
     "id": 14,
@@ -191,9 +269,15 @@
     "education": "Post Graduate",
     "assets": "₹4.03 Cr (declared)",
     "liabilities": "₹44.83 Lacs (declared)",
-    "cases": { "count": 0, "status": "None declared", "details": "" },
+    "cases": {
+      "count": 0,
+      "status": "None declared",
+      "details": ""
+    },
     "source": "MyNeta.info (ADR), Lok Sabha 2024",
-    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=215"
+    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=215",
+    "assetsLacs": 403.0,
+    "liabilitiesLacs": 44.83
   },
   {
     "id": 15,
@@ -205,9 +289,15 @@
     "education": "Others",
     "assets": "₹25.07 Cr (declared)",
     "liabilities": "₹5.90 Lacs (declared)",
-    "cases": { "count": 0, "status": "None declared", "details": "" },
+    "cases": {
+      "count": 0,
+      "status": "None declared",
+      "details": ""
+    },
     "source": "MyNeta.info (ADR), Lok Sabha 2024",
-    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=215"
+    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=215",
+    "assetsLacs": 2507.0,
+    "liabilitiesLacs": 5.9
   },
   {
     "id": 16,
@@ -219,9 +309,15 @@
     "education": "Doctorate",
     "assets": "₹2.20 Cr (declared)",
     "liabilities": "Not declared",
-    "cases": { "count": 1, "status": "Declared (see affidavit)", "details": "As declared in the 2024 election affidavit" },
+    "cases": {
+      "count": 1,
+      "status": "Declared (see affidavit)",
+      "details": "As declared in the 2024 election affidavit"
+    },
     "source": "MyNeta.info (ADR), Lok Sabha 2024",
-    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=211"
+    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=211",
+    "assetsLacs": 220.0,
+    "liabilitiesLacs": null
   },
   {
     "id": 17,
@@ -233,9 +329,15 @@
     "education": "Post Graduate",
     "assets": "₹9.56 Cr (declared)",
     "liabilities": "₹63.70 Lacs (declared)",
-    "cases": { "count": 5, "status": "Declared (see affidavit)", "details": "As declared in the 2024 election affidavit" },
+    "cases": {
+      "count": 5,
+      "status": "Declared (see affidavit)",
+      "details": "As declared in the 2024 election affidavit"
+    },
     "source": "MyNeta.info (ADR), Lok Sabha 2024",
-    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=211"
+    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=211",
+    "assetsLacs": 956.0,
+    "liabilitiesLacs": 63.7
   },
   {
     "id": 18,
@@ -247,9 +349,15 @@
     "education": "Graduate",
     "assets": "₹3.48 Cr (declared)",
     "liabilities": "₹1.94 Cr (declared)",
-    "cases": { "count": 1, "status": "Declared (see affidavit)", "details": "As declared in the 2024 election affidavit" },
+    "cases": {
+      "count": 1,
+      "status": "Declared (see affidavit)",
+      "details": "As declared in the 2024 election affidavit"
+    },
     "source": "MyNeta.info (ADR), Lok Sabha 2024",
-    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=211"
+    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=211",
+    "assetsLacs": 348.0,
+    "liabilitiesLacs": 194.0
   },
   {
     "id": 19,
@@ -261,9 +369,15 @@
     "education": "Graduate",
     "assets": "₹1.24 Cr (declared)",
     "liabilities": "₹54.63 Lacs (declared)",
-    "cases": { "count": 5, "status": "Declared (see affidavit)", "details": "As declared in the 2024 election affidavit" },
+    "cases": {
+      "count": 5,
+      "status": "Declared (see affidavit)",
+      "details": "As declared in the 2024 election affidavit"
+    },
     "source": "MyNeta.info (ADR), Lok Sabha 2024",
-    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=212"
+    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=212",
+    "assetsLacs": 124.0,
+    "liabilitiesLacs": 54.63
   },
   {
     "id": 20,
@@ -275,9 +389,15 @@
     "education": "Graduate",
     "assets": "₹3.19 Lacs (declared)",
     "liabilities": "None declared",
-    "cases": { "count": 0, "status": "None declared", "details": "" },
+    "cases": {
+      "count": 0,
+      "status": "None declared",
+      "details": ""
+    },
     "source": "MyNeta.info (ADR), Lok Sabha 2024",
-    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=212"
+    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=212",
+    "assetsLacs": 3.19,
+    "liabilitiesLacs": null
   },
   {
     "id": 21,
@@ -289,9 +409,15 @@
     "education": "Graduate Professional",
     "assets": "₹18.09 Cr (declared)",
     "liabilities": "₹3.68 Cr (declared)",
-    "cases": { "count": 13, "status": "Declared (see affidavit)", "details": "As declared in the 2024 election affidavit" },
+    "cases": {
+      "count": 13,
+      "status": "Declared (see affidavit)",
+      "details": "As declared in the 2024 election affidavit"
+    },
     "source": "MyNeta.info (ADR), Lok Sabha 2024",
-    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=224"
+    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=224",
+    "assetsLacs": 1809.0,
+    "liabilitiesLacs": 368.0
   },
   {
     "id": 22,
@@ -303,9 +429,15 @@
     "education": "Graduate",
     "assets": "₹1.19 Cr (declared)",
     "liabilities": "₹10.83 Lacs (declared)",
-    "cases": { "count": 5, "status": "Declared (see affidavit)", "details": "As declared in the 2024 election affidavit" },
+    "cases": {
+      "count": 5,
+      "status": "Declared (see affidavit)",
+      "details": "As declared in the 2024 election affidavit"
+    },
     "source": "MyNeta.info (ADR), Lok Sabha 2024",
-    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=224"
+    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=224",
+    "assetsLacs": 119.0,
+    "liabilitiesLacs": 10.83
   },
   {
     "id": 23,
@@ -317,8 +449,14 @@
     "education": "Graduate Professional",
     "assets": "Not declared",
     "liabilities": "Not declared",
-    "cases": { "count": 1, "status": "Declared (see affidavit)", "details": "As declared in the 2024 election affidavit" },
+    "cases": {
+      "count": 1,
+      "status": "Declared (see affidavit)",
+      "details": "As declared in the 2024 election affidavit"
+    },
     "source": "MyNeta.info (ADR), Lok Sabha 2024",
-    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=224"
+    "sourceUrl": "https://www.myneta.info/LokSabha2024/index.php?action=show_candidates&constituency_id=224",
+    "assetsLacs": null,
+    "liabilitiesLacs": null
   }
 ]
