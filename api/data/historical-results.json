@@ -1,0 +1,93 @@
+[
+  {
+    "constituency": "Kottayam",
+    "election": 2019,
+    "winner": "Thomas Chazhikadan",
+    "winnerParty": "Kerala Congress (M)",
+    "winnerVoteShare": 46.62,
+    "marginVotes": 106259,
+    "runnerUpParty": "CPI(M)",
+    "source": "IndiaVotes.com",
+    "sourceUrl": "https://www.indiavotes.com/lok-sabha/2019/kerala/kottayam/"
+  },
+  {
+    "constituency": "Idukki",
+    "election": 2019,
+    "winner": "Adv. Dean Kuriakose",
+    "winnerParty": "INC",
+    "winnerVoteShare": 54.5,
+    "marginVotes": null,
+    "marginPercent": 18.7,
+    "runnerUpParty": "IND",
+    "source": "IndiaVotes.com",
+    "sourceUrl": "https://www.indiavotes.com/lok-sabha/2019/kerala/"
+  },
+  {
+    "constituency": "Ernakulam",
+    "election": 2019,
+    "winner": "Hibi Eden",
+    "winnerParty": "INC",
+    "winnerVoteShare": 51.1,
+    "marginVotes": null,
+    "marginPercent": 17.6,
+    "runnerUpParty": "CPI(M)",
+    "source": "IndiaVotes.com",
+    "sourceUrl": "https://www.indiavotes.com/lok-sabha/2019/kerala/"
+  },
+  {
+    "constituency": "Kollam",
+    "election": 2019,
+    "winner": "N.K. Premachandran",
+    "winnerParty": "Revolutionary Socialist Party",
+    "winnerVoteShare": 51.94,
+    "marginVotes": 148856,
+    "runnerUpParty": "CPI(M)",
+    "source": "IndiaVotes.com",
+    "sourceUrl": "https://www.indiavotes.com/lok-sabha/2019/kerala/kollam/"
+  },
+  {
+    "constituency": "Chalakudy",
+    "election": 2019,
+    "winner": "Benny Behanan",
+    "winnerParty": "INC",
+    "winnerVoteShare": 48.18,
+    "marginVotes": 132274,
+    "runnerUpParty": "CPI(M)",
+    "source": "IndiaVotes.com",
+    "sourceUrl": "https://www.indiavotes.com/lok-sabha/2019/kerala/chalakudy/"
+  },
+  {
+    "constituency": "Ponnani",
+    "election": 2019,
+    "winner": "E. T. Mohammed Basheer",
+    "winnerParty": "Indian Union Muslim League",
+    "winnerVoteShare": 51.61,
+    "marginVotes": 193273,
+    "runnerUpParty": "IND",
+    "source": "IndiaVotes.com",
+    "sourceUrl": "https://www.indiavotes.com/lok-sabha/2019/kerala/ponnani/"
+  },
+  {
+    "constituency": "Palakkad",
+    "election": 2019,
+    "winner": "V K Sreekandan",
+    "winnerParty": "INC",
+    "winnerVoteShare": 39.08,
+    "marginVotes": 11637,
+    "runnerUpParty": "CPI(M)",
+    "source": "IndiaVotes.com",
+    "sourceUrl": "https://www.indiavotes.com/lok-sabha/2019/kerala/palakkad/"
+  },
+  {
+    "constituency": "Attingal",
+    "election": 2019,
+    "winner": "Adv. Adoor Prakash",
+    "winnerParty": "INC",
+    "winnerVoteShare": 38.1,
+    "marginVotes": null,
+    "marginPercent": 3.8,
+    "runnerUpParty": "CPI(M)",
+    "source": "IndiaVotes.com",
+    "sourceUrl": "https://www.indiavotes.com/lok-sabha/2019/kerala/"
+  }
+]
