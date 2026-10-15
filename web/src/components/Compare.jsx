@@ -2,21 +2,27 @@ import { useState } from "react";
 import "./Compare.css";
 
 export default function Compare({ candidates }) {
-  const [leftId, setLeftId] = useState(candidates[0].id);
-  const [rightId, setRightId] = useState(candidates[1].id);
+  const [leftId, setLeftId] = useState(candidates[0]?.id);
+  const [rightId, setRightId] = useState(candidates[1]?.id);
 
   const left = candidates.find((c) => c.id === Number(leftId));
   const right = candidates.find((c) => c.id === Number(rightId));
+
+  if (!left || !right) {
+    return <p className="status">Not enough candidates to compare.</p>;
+  }
+
+  const safeLen = (arr) => (Array.isArray(arr) ? arr.length : 0);
 
   const rows = [
     ["Party", (c) => c.party],
     ["Age", (c) => c.age],
     ["Education", (c) => c.education],
-    ["Declared assets", (c) => c.assets],
+    ["Declared assets", (c) => c.assets || "Not declared"],
     ["Cases", (c) => `${c.cases.count} · ${c.cases.status}`],
-    ["Good work", (c) => c.goodWork.length + " items"],
-    ["Concerns", (c) => c.concerns.length + " items"],
-    ["Win chance (estimate)", (c) => c.winChance + "%"],
+    ["Good work", (c) => (safeLen(c.goodWork) > 0 ? safeLen(c.goodWork) + " items" : "Not available")],
+    ["Concerns", (c) => (safeLen(c.concerns) > 0 ? safeLen(c.concerns) + " items" : "Not available")],
+    ["Win chance (estimate)", (c) => (typeof c.winChance === "number" ? c.winChance + "%" : "Not calculated")],
   ];
 
   return (

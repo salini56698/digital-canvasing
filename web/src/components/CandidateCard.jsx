@@ -78,7 +78,7 @@ export default function CandidateCard({ candidate }) {
 
       {hasWinChance && (
         <div className="prediction">
-          <p>Estimated win chance (sample estimate)</p>
+          <p>Estimated win chance (based on 2019 results &amp; declared cases)</p>
           <div className="bar">
             <motion.div
               className="fill"
@@ -90,6 +90,14 @@ export default function CandidateCard({ candidate }) {
           <strong>
             <CountUp to={candidate.winChance} suffix="%" duration={1.5} />
           </strong>
+
+          {Array.isArray(candidate.winChanceReasons) && candidate.winChanceReasons.length > 0 && (
+            <ul className="reasons">
+              {candidate.winChanceReasons.map((r, i) => (
+                <li key={i}>{r}</li>
+              ))}
+            </ul>
+          )}
         </div>
       )}
 
